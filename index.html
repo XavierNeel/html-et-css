@@ -14,13 +14,12 @@
 <body>
     <header>
         <nav>
-            <div class="accueil-contact">
-                <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
+            <div>
+                <img src="images/robbie-lens.png" class="photos" alt="Portrait avec effet de la photographe Robbie Lens" > 
                 <img src="images/logo.png" alt="Logo Robbie Lens" >
-                <a href="portfolio.html" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
-         
-            <div class="accueil-reseaux">
+          
+            <div>
                 <a href="index.html">Accueil</a>
                 <a href="a-propos.html">À propos</a>
                 <a href="portfolio.html">Portfolio</a>
@@ -36,8 +35,9 @@
                     plus de 5 ans maintenant, j’exerce mon métier avec la passion
                     qui m’anime : capturer l’essence de chaque instant.
                 </p>
-                
+                <a href="#contact" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
+            
         </section>
         <section class="accueil-photos">
             <h2>Mon dernier projet</h2>
@@ -52,21 +52,31 @@
                 <img src="images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande" >
             </div>
         </section>
-        <section class="accueil-formulaire">
-            <form method="get" action="">
-                <fieldset>
-                   <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
-                   <label for="nom">Quel est votre nom ?</label>
-                   <input type="text" name="nom" id="nom">
-                   <label for="prenom">Quel est votre prénom ?</label>
-                   <input type="text" name="prenom" id="prenom">
-                   <label for="email">Quel est votre e-mail ?</label>
-                   <input type="email" name="email" id="email">
-                </fieldset>
-              </form>
-
-
+        <section id="contact" class="section-contact">
+            <h2>Parlons de votre projet</h2>
+            <form method="get" action="#">
+                <div class="form-nom-email">
+                    <div class="form-column">
+                        <label for="nom">nom</label>
+                        <input type="text" name="nom" id="nom" >
+                    </div>
+                    <div class="form-column">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" >
+                    </div>
+                </div>
+                <label for="message">message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <input type="submit" value="ENVOYER" class="cta" >
+            </form>
         </section>
+        <form method="get" action="">
+
+            <label id="prenom" for="prenom">Votre prénom</label>
+        
+            <input type="text" name="surnom">
+        
+        </form>
     </main>
     <footer>
         <img src="images/logo.png" alt="Logo Robbie Lens" >
