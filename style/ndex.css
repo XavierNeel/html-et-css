@@ -15,12 +15,12 @@
     gap: 15px;
     justify-content: center;
     margin-bottom: 15px;
+    width: auto;
   }
   
   .accueil-introduction {
     display: flex;
     flex-direction: row;
-    width: 60%;
     align-items: flex-start;
     margin: auto;
   }
@@ -35,4 +35,7 @@
   
   .accueil-introduction div {
     padding-right: 80px;
+  }
+  .accueil-contact{
+   width:15px;
   }

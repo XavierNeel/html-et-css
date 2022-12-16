@@ -14,8 +14,13 @@
 <body>
     <header>
         <nav>
-            <img src="images/logo.png" alt="Logo Robbie Lens" >
-            <div>
+            <div class="accueil-contact">
+                <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
+                <img src="images/logo.png" alt="Logo Robbie Lens" >
+                <a href="portfolio.html" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+            </div>
+         
+            <div class="accueil-reseaux">
                 <a href="index.html">Accueil</a>
                 <a href="a-propos.html">À propos</a>
                 <a href="portfolio.html">Portfolio</a>
@@ -31,9 +36,8 @@
                     plus de 5 ans maintenant, j’exerce mon métier avec la passion
                     qui m’anime : capturer l’essence de chaque instant.
                 </p>
-                <a href="portfolio.html" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+                
             </div>
-            <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
         </section>
         <section class="accueil-photos">
             <h2>Mon dernier projet</h2>
@@ -47,6 +51,21 @@
                 <img src="images/accueil/element-5.png" alt="Milford Sound - Nouvelle-Zélande" >
                 <img src="images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande" >
             </div>
+        </section>
+        <section class="accueil-formulaire">
+            <form method="get" action="">
+                <fieldset>
+                   <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+                   <label for="nom">Quel est votre nom ?</label>
+                   <input type="text" name="nom" id="nom">
+                   <label for="prenom">Quel est votre prénom ?</label>
+                   <input type="text" name="prenom" id="prenom">
+                   <label for="email">Quel est votre e-mail ?</label>
+                   <input type="email" name="email" id="email">
+                </fieldset>
+              </form>
+
+
         </section>
     </main>
     <footer>
